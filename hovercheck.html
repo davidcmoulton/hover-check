@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hover check</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="hovercheck.css">
+  <noscript>This tool is used to fine-tune JavaScript interactions. As JavaScript does not appear to be available, it's not going to be much use to you.</noscript>
+</head>
+<body>
+<section role="main" class="main hidden">
+  <section class="meta">
+    <h1 class="h1">Hover check</h1>
+    <p>A simple tool to help provide a sense of how long a hover interaction should be before it's considered significant.</p>
+    <p>Use the slider to set the time in milliseconds. Hovering over the H button for longer than this time results in a significant hover.</p>
+    <p>Tweak the slider to find the interaction you need, then just copy the timeout value to use in your animations or scripts.</p>
+  </section>
+  
+  <section>  
+    <a class="hoverTestEl" href="#">H</a>
+    <form action="#" class="hoverTestForm">
+      <label for="timeoutControl">Delay until hover significant (ms):</label>
+      <output id="timeoutOut" class="timeoutOut"></output>
+      <input type="range" id="timeoutControl" min="100" max="2000" step="100" value="300">
+    </form>
+    <output id="msg" class="msg"></output>
+  </section>
+</section>
+<footer class="smallprint">
+  <p>Made by @davidcmoulton: on <a href="https://github.com/davidcmoulton">GitHub</a> and <a href="https://twitter.com/davidcmoulton">Twitter</a></p>
+</footer>
+<script src="hovercheck.js"></script>
+</body>
+</html>

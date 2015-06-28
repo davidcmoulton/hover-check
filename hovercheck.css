@@ -1,0 +1,60 @@
+body,
+body * {
+  box-sizing: border-box;  
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+  padding: 10px;
+}
+label {
+  display: block;
+  padding-top: 20px;
+}
+.main {
+  display: hidden;
+}
+.h1 {
+  margin-top: 0;
+}
+.hoverTestForm {
+  padding: 10px;
+}
+.timeoutOut {
+  font-size: 4.5em;
+  display: block;
+  padding: 20px;
+}
+.hoverTestEl {
+  box-sizing: border-box;
+  background-color: rgb(255, 128, 56);
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 3em;
+  height: 100px;
+  margin: 0 auto;
+  padding-left: 31px;
+  padding-top: 22px;
+  width: 100px;
+}
+.hoverTestEl:hover {
+  box-shadow: 0 0 5px 5px rgba(255, 128, 56, 0.5);
+}
+.hoverTestEl.timedout {
+  background-color: rgb(255, 56, 56);
+}
+.hoverTestEl.timedout:hover {
+  box-shadow: 0 0 5px 5px rgba(255, 56, 56, 0.5);
+}
+.msg {
+  display: block;
+  min-height: 3em; 
+}
+.smallprint {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: right;
+  width: 99%;
+}

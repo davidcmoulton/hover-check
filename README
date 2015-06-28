@@ -1,0 +1,8 @@
+# Hover check
+
+A simple tool to help provide a sense of how long a hover interaction should be 
+before it's considered significant.
+
+Use the slider to set the time in milliseconds. Hovering over the H button for
+longer than this time results in a significant hover.
+
